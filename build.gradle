@@ -1,0 +1,18 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+sourceCompatibility = '1.5'
+targetCompatibility = '1.5'
+
+version = '0.0.1'
+
+def defaultEncoding = 'UTF-8'
+[compileJava, compileTestJava]*.options*.encoding = defaultEncoding
+
+
+jar {
+    manifest {
+        attributes 'Main-Class' : 'com.github.x_nagasawa.cvc.ClassfileVersionChecker'   attributes 'Implementation-Version': version
+    }
+    baseName = 'ClassfileVersionChecker'
+}

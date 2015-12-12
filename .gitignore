@@ -1,0 +1,16 @@
+# Dot Files
+.settings
+.classpath
+.project
+
+.gradle
+build/
+obj/
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
