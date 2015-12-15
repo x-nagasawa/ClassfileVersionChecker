@@ -10,6 +10,11 @@ ClassfileVersionChecker
 
 No more java.lang.UnsupportedClassVersionError!
 
+This tool gives you easily checking jar file which has Java class file which are compiled for newer JRE you suppose.
+
+
+[ダウンロード / Download](https://github.com/x-nagasawa/ClassfileVersionChecker/releases)
+
 
 ## ライセンス / License
 
